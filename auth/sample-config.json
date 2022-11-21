@@ -1,0 +1,7 @@
+{
+    "KEY": "API Key goes here",
+    "SECRET": "API Secret goes here",
+    "BEARERTOKEN": "Bearer Token goes here",
+    "TOKEN": "Access Token goes here",
+    "TOKENSECRET": "Access Token Secret goes here"
+}
