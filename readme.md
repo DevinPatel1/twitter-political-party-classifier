@@ -24,7 +24,7 @@ The subset of data used for this project are the following:
 
 Each of these status IDs represent a specific twitter status (i.e., a tweet). These statuses and relevant data are pulled using the [Tweepy API](developer.twitter.com), after which sentiment analysis is performed on it using TextBlob.  
 
-The following features wil be extracted from each status as of November 23, 2022:  
+The following features will be extracted from each status as of November 23, 2022:  
 
 |  Feature Name  |  Description                    |   DType | Range |
 |  :-----------  |  :----------                    |   :--:  | :---:|
