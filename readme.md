@@ -20,7 +20,7 @@ The subset of data used for this project are the following:
 | [democratic-candidate-timelines.txt](https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/PDI7IN/KLFZRI&version=3.0) |  Status IDs of Democratic Candidate Hillary Clinton      |      20,000     |
 | [democratic-party-timelines.txt](https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/PDI7IN/TXWMVP&version=3.0)     |  Status IDs of Democratic Party Accounts      |      10,550     |
 | [republican-candidate-timelines.txt](https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/PDI7IN/PDQIEW&version=3.0) |  Status IDs of Republican Candidate Donald Trump      |      20,000     |
-| [republican-party-timelines.txt](https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/PDI7IN/A9OIZQ&version=3.0)     |  Status IDs of Republican Party Accounts      |      10,993     |
+| [republican-party-timelines.txt](https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/PDI7IN/A9OIZQ&version=3.0)     |  Status IDs of Republican Party Accounts      |      15,402     |
 
 Each of these status IDs represent a specific twitter status (i.e., a tweet). These statuses and relevant data are pulled using the [Tweepy API](developer.twitter.com), after which sentiment analysis is performed on it using TextBlob.  
 
