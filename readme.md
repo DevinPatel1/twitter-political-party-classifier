@@ -11,7 +11,7 @@ Project:    Using sentiment analysis and popularity stats
 
 # Data Collection
 
-The data used was compiled by researchers Justin Littman, Laura Wrubel, and Daniel Kerchner. The dataset contains lists of twitter status IDs organized by party that relate to the 2016 Election. The data is hosted on the [Harvard Dataverse.](dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PDI7IN)  
+The data used was compiled by researchers Justin Littman, Laura Wrubel, and Daniel Kerchner. The dataset contains lists of twitter status IDs organized by party that relate to the 2016 Election. The data is hosted on the [Harvard Dataverse.](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PDI7IN)  
 
 The subset of data used for this project are the following:
 
@@ -22,7 +22,7 @@ The subset of data used for this project are the following:
 | [republican-candidate-timelines.txt](https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/PDI7IN/PDQIEW&version=3.0) |  Status IDs of Republican Candidate Donald Trump      |      20,000     |
 | [republican-party-timelines.txt](https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/PDI7IN/A9OIZQ&version=3.0)     |  Status IDs of Republican Party Accounts      |      15,402     |
 
-Each of these status IDs represent a specific twitter status (i.e., a tweet). These statuses and relevant data are pulled using the [Tweepy API](developer.twitter.com), after which sentiment analysis is performed on it using TextBlob.  
+Each of these status IDs represent a specific twitter status (i.e., a tweet). These statuses and relevant data are pulled using the [Tweepy API](https://developer.twitter.com), after which sentiment analysis is performed on it using TextBlob.  
 
 The following features will be extracted from each status as of November 23, 2022:  
 
@@ -87,7 +87,7 @@ project
 └───Logs
 ```
 
-`config.json` must be configured with the proper [Tweepy API](developer.twitter.com) credentials in the `auth` directory according to the following:  
+`config.json` must be configured with the proper [Tweepy API](https://developer.twitter.com) credentials in the `auth` directory according to the following:  
 ```json
 {
     "KEY": "API Key goes here",
